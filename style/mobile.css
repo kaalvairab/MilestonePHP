@@ -1,0 +1,155 @@
+.header{
+  display: none;
+}
+
+.navbar{
+  top: 0;
+}
+
+.home{
+  background-size: cover;
+}
+
+.landing {
+  flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    top: auto;
+
+
+}
+
+.landing>div {
+  width: 100%;
+}
+
+.brand-name{
+  font-size: xx-large;
+
+}
+
+.brand-social{
+  display: none;
+}
+
+.options{
+  padding-top: none;
+}
+.options>button{
+  width: 70%;
+}
+
+
+/* ABOUT */
+.about{
+  flex-direction: column;
+  margin: 0;
+}
+
+.about-detail{
+  width: 90%;
+  height: fit-content;
+}
+
+.about-detail-image{
+  display: none;
+}
+
+.about-detail-description{
+  width: fit-content;
+  height: fit-content;
+}
+
+.about>div {
+  margin: auto;
+  margin-bottom: 10%;
+}
+.about-links {
+  width: 60%;
+}
+
+
+/* CLASS */
+.classes{
+  flex-direction: column;
+}
+
+.class-title{
+  border-bottom: 1px solid #430000;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border-left: none;
+}
+
+.class-image{
+  display: none;
+}
+
+/* NOTICE */
+.notice-list {
+  margin: 4% auto;
+  width: 80%;
+}
+
+.notice{
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* MENTOR */
+
+.mentor-subtitle{
+  display: none;
+}
+
+.mentor-list {
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+}
+
+.mentor-list>div {
+  width: 50%;
+  margin: 5% auto;
+}
+
+/* GALLERY */
+.gallery{
+  display: none;
+}
+
+/* TESTIMONIAL */
+.testimonial-detail {
+  display: flex;
+  width: 90%;
+  padding-top: 5vh;
+}
+
+/* CONTACT */
+.contact-detail{
+  flex-direction: column;
+}
+
+.contact-detail>div {
+  margin: auto;
+  width: 90%;
+  height: 40vh;
+}
+
+.footer-social a {
+  font-size: 26px;
+  z-index: 0;
+}
+
+/* FOOTER */
+.footer{
+  flex-direction: column;
+}
+.footer>div{
+  width: 90%;
+}

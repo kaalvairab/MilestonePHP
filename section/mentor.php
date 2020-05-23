@@ -1,0 +1,50 @@
+<section class="mentor section" id="mentor">
+  <div class="title mentor-title">Mentor
+  </div>
+  <div class="subtitle mentor-subtitle">
+    " Incididunt occaecat commodo dolor est. Sunt deserunt aliquip eiusmod
+    exercitation dolore
+    exercitation. "</div>
+  <div class="mentor-list">
+    <div class="mentor-individual">
+      <div class="mentor-image"><img src="https://bit.ly/3dInfZE" alt="">
+        <div class="mentor-detail">
+          <div class="mentor-name">Mile Shrestha</div>
+          <div class="mentor-subject">Science</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="mentor-individual">
+      <div class="mentor-image"><img src="https://bit.ly/3dInfZE" alt="">
+        <div class="mentor-detail">
+          <div class="mentor-name">Mile Shrestha</div>
+          <div class="mentor-subject">Science</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="mentor-individual">
+      <div class="mentor-image"><img src="https://bit.ly/3dInfZE" alt="">
+        <div class="mentor-detail">
+          <div class="mentor-name">Mile Shrestha</div>
+          <div class="mentor-subject">Science</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="mentor-individual">
+      <div class="mentor-image"><img src="https://bit.ly/3dInfZE" alt="">
+        <div class="mentor-detail">
+          <div class="mentor-name">Mile Shrestha</div>
+          <div class="mentor-subject">Science</div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="mentor-view-all"><button onclick="document.location='./pages/mentor.php'">View All</button></div>
+
+</section>
