@@ -1,12 +1,9 @@
 # milestone
-Milestone Edcation Foundation !
+Milestone Education Foundation !
 
 Multipage Website !
 
-Technology used HTML5, CSS, CSS flex, CSS grid & Javascript !
+Technology used HTML5, CSS, CSS flex, CSS grid & PHP !
 
-View Link
-
-https://kaalvairab.github.io/milestone
 
 
