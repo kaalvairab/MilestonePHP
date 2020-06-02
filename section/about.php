@@ -14,7 +14,7 @@
       labore cillum occaecat. Ex ut eiusmod laborum irure incididunt excepteur do ea occaecat irure nisi. Dolor eiusmod
       quis id cupidatat dolor.
       <br><br>
-      <button onclick="document.location='./pages/about.php'">More >></button>
+      <button onclick="document.location='about.php'">More >></button>
     </div>
   </div>
   <div class="about-links">

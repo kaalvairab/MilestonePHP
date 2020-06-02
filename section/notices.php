@@ -9,6 +9,6 @@
     <div class="notice">Classes are closed due to Bad Weather.</div>
     <div class="notice">Computer Classes has been started from yesterday OFFER</div>
   </div>
-  <div class="mentor-view-all"><button onclick="document.location='./pages/mentor.php'">View All</button></div>
+  <div class="mentor-view-all"><button onclick="document.location='#'">View All</button></div>
 
 </section>

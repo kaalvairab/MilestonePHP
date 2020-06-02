@@ -1,11 +1,55 @@
+.section{
+  padding-top: 25%;
+}
+
 .header{
   display: none;
 }
 
+/* NAVBAR */
 .navbar{
   top: 0;
+  display: none;
 }
 
+.mobile-navbar{
+  width: 100%;
+  position: fixed;
+  height: fit-content;
+  background-color: #430000;
+  display: flex;
+}
+
+.mobile-navlinks{
+  text-align: center;
+  background-color: #430000;
+  display: none;
+}
+
+.mobile-navlinks ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mobile-navlinks li{
+  border-bottom: 1px solid #fff;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    font-size: 24px;
+}
+.mobile-navlinks li:first-child{
+  font-size: 42px;
+}
+.mobile-navlinks li:last-child{
+  border: none;
+}
+
+
+/* HOME PAGE */
 .home{
   background-size: cover;
 }
@@ -16,7 +60,6 @@
     width: 100%;
     bottom: 15%;
     top: auto;
-
 
 }
 
@@ -59,6 +102,7 @@
 .about-detail-description{
   width: fit-content;
   height: fit-content;
+  text-align: center;
 }
 
 .about>div {
@@ -125,10 +169,31 @@
 
 /* TESTIMONIAL */
 .testimonial-detail {
-  display: flex;
+
   width: 90%;
   padding-top: 5vh;
 }
+
+.testimonial-image{
+  display: none;
+  }
+  
+.testimonial-text{
+    width: fit-content;
+    border-left: none;
+  }
+
+  .carousel{
+    height: 200px;
+  }
+
+  .left-arrow{
+    left: 0;
+  }
+
+  .right-arrow{
+    right: 0;
+  }
 
 /* CONTACT */
 .contact-detail{
@@ -143,7 +208,6 @@
 
 .footer-social a {
   font-size: 26px;
-  z-index: 0;
 }
 
 /* FOOTER */
@@ -153,3 +217,4 @@
 .footer>div{
   width: 90%;
 }
+

@@ -1,6 +1,9 @@
 <!-- HEADER -->
 <?php include("section/header.php"); ?>
 
+<!-- MOBILE NAVBAR -->
+<?php include("section/navbarmobile.php"); ?>
+
 <!-- NAVBAR -->
 <?php include("section/navbar.php"); ?>
 

@@ -1,8 +1,12 @@
 <!-- HEADER -->
-<?php include("../section/header.php"); ?>
+
+<?php include("section/header.php"); ?>
 
 <!-- NAVBAR -->
-<?php include("../section/navbarpage.php"); ?>
+<?php include("section/navbarpage.php"); ?>
+
+<!-- MOBILE NAVBAR-->
+<?php include("section/navbarmobile.php"); ?>
 
 <!-- PAGE CONTENT -->
 <section class="classes section" id="classes">
@@ -12,13 +16,13 @@
     <button onclick="#">Class Ten</button><br>
     <button onclick="#">Class Eleven</button><br>
     <button onclick="#">Class Twelve</button>
-  </>
-  <div class="class-image"><img src="./image/class.png" alt=""></div>
+  </div>
+  <div class="class-image"><img src="image/class.png" alt=""></div>
 </section>
 
 
-<!-- COTACT -->
-<?php include("../section/contact.php");?>
+<!-- CONTACT -->
+<?php include("section/contact.php");?>
 
 <!-- FOOTER -->
-<?php include("../section/footer.php"); ?>
+<?php include("section/footer.php"); ?>

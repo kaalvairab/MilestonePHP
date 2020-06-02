@@ -7,7 +7,7 @@
       </div>
       <div class="contact-address"><i class="fas fa-map-marker-alt"></i> Kamalvinayak, Bhaktapur</div>
       <div class="contact-number"><i class="fas fa-phone-volume"></i> +977 01 6611585</div>
-      <div class="contact-email"><i class="far fa-envelope-open"></i> contact@milestoneedu.com.np</div>
+      <div class="contact-email"><i class="far fa-envelope-open"></i> contact@milestoneedu.com</div>
       <div class="social-link footer-social">
         <a href="#"><i class="fab fa-facebook"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>

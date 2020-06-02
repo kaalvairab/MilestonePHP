@@ -1,8 +1,12 @@
 <!-- HEADER -->
-<?php include("../section/header.php"); ?>
+
+<?php include("section/header.php"); ?>
 
 <!-- NAVBAR -->
-<?php include("../section/navbarpage.php"); ?>
+<?php include("section/navbarpage.php"); ?>
+
+<!-- MOBILE NAVBAR-->
+<?php include("section/navbarmobile.php"); ?>
 
 <!-- PAGE CONTENT -->
 <section class="mentor section" id="mentor">
@@ -55,8 +59,8 @@
 
 </section>
 
-<!-- COTACT -->
-<?php include("../section/contact.php");?>
+<!-- CONTACT -->
+<?php include("section/contact.php");?>
 
 <!-- FOOTER -->
-<?php include("../section/footer.php"); ?>
+<?php include("section/footer.php"); ?>

@@ -45,6 +45,6 @@
 
 
   </div>
-  <div class="mentor-view-all"><button onclick="document.location='./pages/mentor.php'">View All</button></div>
+  <div class="mentor-view-all"><button onclick="document.location='mentor.php'">View All</button></div>
 
 </section>
