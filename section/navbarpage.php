@@ -1,5 +1,4 @@
-<nav class="navbar" style="top: 0px; position: fixed;
-  ">
+<nav class="navbar" style="top: 0px; position: fixed;">
   <div class="nav-logo">
     <a href="index.php"><img src="image/logo.png" alt=""></a>
   </div>

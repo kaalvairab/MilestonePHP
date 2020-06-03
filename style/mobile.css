@@ -24,6 +24,14 @@
   text-align: center;
   background-color: #430000;
   display: none;
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+
+    transition: all 0.3s;
+
 }
 
 .mobile-navlinks ul{
