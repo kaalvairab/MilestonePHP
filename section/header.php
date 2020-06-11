@@ -15,8 +15,6 @@
   <!-- MOBILE CSS -->
   <link rel="stylesheet" href="style/mobile.css">
 
-
-
   <!-- MOBILE ADDRESS BAR COLOR -->
   <meta name="theme-color" content="#4B0000">
 

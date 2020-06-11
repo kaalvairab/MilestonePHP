@@ -335,7 +335,7 @@ background-color: #000000;
 /* CLASSES */
 .classes{
   display: flex;
-      margin: 2%
+      margin: 5% 2%
   
 }
 
@@ -356,7 +356,7 @@ background-color: #000000;
   display: flex;
   flex-direction: column;
   width: 30%;
-  padding: 5% 10%;
+  padding: 3% 10%;
   border-left: 1px solid #4b0000;
 }
 .class-list>button{
@@ -753,3 +753,71 @@ transition: 0.5s ease;
   background-color: #f2f2f2;
 }
 
+
+/* INNER PAGES */
+.page-header{
+margin-top: 15%;
+text-align: center;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.page-location{
+  font-size: 14px;
+}
+
+.page-class-list {
+  border-right: 1px solid #4b0000;
+  border-left: none;
+}
+
+.page-cta{
+  text-align: center;
+
+}
+
+.page-cta-img{
+  width: 50%;
+  margin: auto;
+}
+
+.page-cta a{
+  background-color: #430000;
+    padding: 8px 10px;
+    transition: padding ease 0.3s;
+}
+
+.page-cta a:hover{
+  background-color: #000000;
+  padding: 10px 14px;
+}
+
+
+/* ANIMATION EFFECT on PAGE */
+.page-animation{
+  margin:auto;
+width: 80%;
+background-color: #000000;
+color: #fff;
+overflow: hidden;
+}
+
+.page-animation-txt{
+  font-size: 44px;
+    position: relative;
+    left: 5%;
+    top: 25%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    padding: 16px;
+    overflow: hidden;
+}
+
+@keyframes example {
+  0%   { left:0;}
+  
+  100% {left:60%;}
+}

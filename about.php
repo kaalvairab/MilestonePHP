@@ -30,6 +30,12 @@
     ipsum minim labore. Sunt cupidatat commodo qui irure.</div>
 </section>
 
+<br><br><br>
+
+<section class="page-animation">
+  <div class="page-animation-txt">Enroll today !</div>
+</section>
+
 <!-- CONTACT -->
 <?php include("section/contact.php");?>
 

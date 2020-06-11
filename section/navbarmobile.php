@@ -16,7 +16,7 @@
   <ul>
     <li id="mobNavClose">X</li>
     <li><a href="index.php#contact">Contact</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="index.php">Blog</a></li>
     <li><a href="#">Work</a></li>
     <li><a href="index.php">Home</a></li>
   </ul>
