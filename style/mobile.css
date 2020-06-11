@@ -1,228 +1,315 @@
-.section{
-  padding-top: 25%;
-}
+@media only screen and (max-width: 992px) {
+  .header{
+    display: none;
+  }
+  
+  .landing{
+    top: 40vh;
+  }
 
-.header{
-  display: none;
-}
+  .options>button {
+    font-size: 20px;
+  }
 
-/* NAVBAR */
-.navbar{
-  top: 0;
-  display: none;
-}
-
-.mobile-navbar{
-  width: 100%;
-  position: fixed;
-  height: fit-content;
-  background-color: #430000;
-  display: flex;
-}
-
-.mobile-navlinks{
-  text-align: center;
-  background-color: #430000;
-  display: none;
-  position: fixed;
+  /* NAVBAR */
+  .navbar{
     top: 0;
-    bottom: 0;
-    z-index: 1;
+    display: none;
+  }
+  
+  .mobile-navbar{
     width: 100%;
+    position: fixed;
+    height: fit-content;
+    background-color: #430000;
+    display: flex;
+  }
+  
+  .mobile-navlinks{
+    text-align: center;
+    background-color: #430000;
+    display: none;
+    position: fixed;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      width: 100%;
+  
+      transition: all 0.3s;
+  
+  }
+  
+  .mobile-navlinks ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .mobile-navlinks li{
+    border-bottom: 1px solid #fff;
+      padding: 15px;
+      width: 50%;
+      margin: auto;
+      color: #fff;
+      font-size: 24px;
+  }
+  .mobile-navlinks li:first-child{
+    font-size: 42px;
+  }
+  .mobile-navlinks li:last-child{
+    border: none;
+  }
 
-    transition: all 0.3s;
-
-}
-
-.mobile-navlinks ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-.mobile-navlinks li{
-  border-bottom: 1px solid #fff;
-    padding: 15px;
-    width: 50%;
+  /* ABOUT */
+  .about{
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .about-detail{
+    width: 90%;
+    height: fit-content;
+  }
+  
+  
+  .about-detail-description{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .about>div {
     margin: auto;
-    color: #fff;
-    font-size: 24px;
-}
-.mobile-navlinks li:first-child{
-  font-size: 42px;
-}
-.mobile-navlinks li:last-child{
-  border: none;
-}
+    margin-bottom: 10%;
+  }
+  .about-links {
+    width: 60%;
+  }
 
+  /* CLASSES */
+  .class-image{
+    display: none;
+  }
 
-/* HOME PAGE */
-.home{
-  background-size: cover;
-}
+  /* NOTICES & OFFER */
+  .notice{
+    font-size: 18px;
+  }
 
-.landing {
-  flex-direction: column;
-    position: absolute;
-    width: 100%;
-    bottom: 15%;
-    top: auto;
-
+  /* MENTOR */
+  .mentor-list {
+    margin: 5% ;
 }
 
-.landing>div {
+  /* Gallery */
+  .gallery-image {
+    margin: 5% 0%;
+}
+
+  /* CONTACT */
+  .contact-detail {
+    flex-direction: column;
+}
+.contact-detail>div{
   width: 100%;
+  padding: 1% 4%;
+  height: fit-content;
 }
 
-.brand-name{
-  font-size: xx-large;
-
 }
 
-.brand-social{
-  display: none;
+@media only screen and (max-width:768px){
+  .class-image{
+    display: none;
+  }
+
+  .section {
+    padding-top: 20%;
 }
 
-.options{
-  padding-top: none;
-}
-.options>button{
-  width: 70%;
-}
 
 
 /* ABOUT */
 .about{
   flex-direction: column;
-  margin: 0;
 }
 
-.about-detail{
-  width: 90%;
-  height: fit-content;
+.about-detail {
+  width: 100%;
 }
 
-.about-detail-image{
-  display: none;
-}
-
-.about-detail-description{
-  width: fit-content;
-  height: fit-content;
-  text-align: center;
-}
-
-.about>div {
-  margin: auto;
-  margin-bottom: 10%;
-}
 .about-links {
-  width: 60%;
+  width: 100%;}
 }
 
-
-/* CLASS */
-.classes{
-  flex-direction: column;
-}
-
-.class-title{
-  border-bottom: 1px solid #430000;
-}
-
-.class-list {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  border-left: none;
-}
-
-.class-image{
-  display: none;
-}
-
-/* NOTICE */
-.notice-list {
-  margin: 4% auto;
-  width: 80%;
-}
-
-.notice{
-  padding: 12px;
-  font-size: 18px;
-}
-
-/* MENTOR */
-
-.mentor-subtitle{
-  display: none;
-}
-
-.mentor-list {
-  display: flex;
-  margin: 5%;
-  flex-direction: column;
-}
-
-.mentor-list>div {
-  width: 50%;
-  margin: 5% auto;
-}
-
-/* GALLERY */
-.gallery{
-  display: none;
-}
-
-/* TESTIMONIAL */
-.testimonial-detail {
-
-  width: 90%;
-  padding-top: 5vh;
-}
-
-.testimonial-image{
-  display: none;
+@media only screen and (max-width:600px){
+  .section{
+    padding-top: 25%;
   }
   
-.testimonial-text{
+  /* HOME PAGE */
+  
+  .landing {
+    flex-direction: column;
+      position: absolute;
+      width: 100%;
+      bottom: 15%;
+      top: auto;
+  
+  }
+  
+  .landing>div {
+    width: 100%;
+    margin: 2%;
+  }
+  
+  .brand-name{
+    font-size: xx-large;
+  
+  }
+  
+  .brand-social{
+    display: none;
+  }
+  
+  .options{
+    padding-top: none;
+  }
+  .options>button{
+    width: 40%;
+  }
+  
+  /* ABOUT */
+  
+
+.about-detail-image {
+  display: none;
+}
+  
+  /* CLASS */
+  .classes{
+    flex-direction: column;
+  }
+  
+  .class-title{
+    border-bottom: 1px solid #430000;
+  }
+  
+  .class-list {
+    display: flex;
+    flex-direction: column;
     width: fit-content;
     border-left: none;
   }
-
-  .carousel{
-    height: 200px;
+  
+  
+  
+  /* NOTICE */
+  .notice-list {
+    margin: 4% auto;
+    width: 80%;
   }
-
-  .left-arrow{
-    left: 0;
+  
+  .notice{
+    padding: 12px;
+    font-size: 18px;
   }
-
-  .right-arrow{
-    right: 0;
+  
+  /* MENTOR */
+  
+  .mentor-subtitle{
+    display: none;
   }
-
-/* CONTACT */
-.contact-detail{
-  flex-direction: column;
+  
+  .mentor-list {
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+  }
+  
+  .mentor-list>div {
+    width: 50%;
+    margin: 5% auto;
+  }
+  
+  /* GALLERY */
+.gallery-image{
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.contact-detail>div {
+.gallery-title {
+  grid-column: 2/3;
   margin: auto;
-  width: 90%;
-  height: 40vh;
+  grid-row: 2/3;
 }
 
-.footer-social a {
-  font-size: 26px;
+.gallery-image>:last-child{
+  display: none;
 }
 
-/* FOOTER */
-.footer{
-  flex-direction: column;
+.gallery-title .title {
+  font-size: 18px;
 }
-.footer>div{
-  width: 90%;
+
+.gallery-title .subtitle {
+  font-size: 12px;
 }
+  /* TESTIMONIAL */
+  .testimonial-detail {
+  
+    width: 90%;
+    padding-top: 5vh;
+  }
+  
+  .testimonial-image{
+    display: none;
+    }
+    
+  .testimonial-text{
+      width: fit-content;
+      border-left: none;
+    }
+  
+    .carousel{
+      height: 200px;
+    }
+  
+    .left-arrow{
+      left: 0;
+    }
+  
+    .right-arrow{
+      right: 0;
+    }
+  
+  /* CONTACT */
+  .contact-detail{
+    flex-direction: column;
+  }
+  
+  .contact-detail>div {
+    margin: auto;
+    width: 90%;
+    height: 40vh;
+  }
+  
+  .footer-social a {
+    font-size: 26px;
+  }
+  
+  /* FOOTER */
+
+  .footer>div{
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+ 
 

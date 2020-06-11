@@ -11,6 +11,7 @@ function scrollFunction() {
   }
 
   console.log('Screen Scroll Action Done !')
+  console.log(screen.width);
 }
 
 // RIGHT Navbar
@@ -181,3 +182,5 @@ indicators.addEventListener('click', e => {
 
 
 });
+
+

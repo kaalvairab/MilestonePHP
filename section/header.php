@@ -11,9 +11,11 @@
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="style/main.css">
-  
+
   <!-- MOBILE CSS -->
-  <link rel="stylesheet" href="style/mobile.css" media="screen and (max-device-width: 800px)">
+  <link rel="stylesheet" href="style/mobile.css">
+
+
 
   <!-- MOBILE ADDRESS BAR COLOR -->
   <meta name="theme-color" content="#4B0000">
@@ -21,7 +23,7 @@
   <!-- FONT AWESONE LIBRARY -->
   <script src="https://kit.fontawesome.com/9337df7910.js" crossorigin="anonymous"></script>
 
-  
+
 </head>
 
 <body>
